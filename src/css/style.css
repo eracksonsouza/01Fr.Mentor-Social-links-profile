@@ -1,0 +1,91 @@
+html { 
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    background-color: var(--cor-black);
+    display: flex;
+    align-items: center;
+    height: 1440px;
+    flex-direction: column;
+}
+
+footer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+    color: var(--cor-solid);
+}
+
+.container {
+    margin-top: 50px;
+    color: white;
+    background-color: var(--cor-dark);
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.container img {
+    display: block;
+    margin: auto;
+}
+
+.container img {
+    border-radius: 50px;
+    height: 100px;
+}
+
+.container .informacoes {
+    color: var(--cor-solid);
+    text-align: center;
+    margin: 20px;
+}
+
+.container .informacoes .nome {
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.container .informacoes .cidade {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--cor-texto);
+}
+
+.container .informacoes .descricao {
+    margin-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .links a {
+    width: 250px;
+    height: 40px;
+    background-color: var(--cor-medium);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.links a {
+    height: 100vh;
+    text-align: center;
+}
+
+.links a:hover {
+    background-color: var(--cor-texto);
+    color: black;
+}

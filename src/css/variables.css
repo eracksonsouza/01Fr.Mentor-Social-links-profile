@@ -1,0 +1,8 @@
+:root {
+    --cor-solid: hsl(0, 0%, 100%);
+    --cor-medium: hsl(0, 0%, 20%);
+    --cor-dark: hsl(0, 0%, 12%);
+    --cor-black: hsl(0, 0%, 8%);
+    --cor-texto: hsl(75, 94%, 57%);
+
+}
